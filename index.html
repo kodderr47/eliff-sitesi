@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elma Sürprizi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 100px;
+      background: #fff8f0;
+    }
+    #button1, #elmaContainer {
+      cursor: pointer;
+      user-select: none;
+      margin: 0 auto;
+    }
+    #button1 {
+      padding: 20px 40px;
+      font-size: 24px;
+      background-color: #ff6347;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      transition: transform 0.3s ease;
+      display: inline-block;
+    }
+    #elmaContainer {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    #elmaImg {
+      width: 150px;
+      height: auto;
+      cursor: pointer;
+    }
+    #elmaYazisi {
+      font-size: 20px;
+      color: #b22222;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="button1">Bu tuşa bas</button>
+
+  <div id="elmaContainer">
+    <img src="https://upload.wikimedia.org/wikipe
